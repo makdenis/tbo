@@ -74,5 +74,5 @@ if __name__ == '__main__':
     result = sort(reduced)
     t1 = time.time()
     total = t1 - t0
-    print(list(result.items())[:10])
+    print(list(result.items())[:100])
     print(total)
