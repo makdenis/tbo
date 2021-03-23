@@ -11,7 +11,7 @@ def gen_chunk(filename):
     tmp =[]
     for i in range(1024):
         tmp.append(
-            f"{''.join(random.choice(string.ascii_letters) for _ in range(random.randint(32, 62)))}\n")
+            f"{''.join(random.choice(string.ascii_letters) for _ in range(random.randint(30, 64)))}\n")
 
     to_write = ''.join(tmp)
     with open(filename, 'a+', encoding='utf-8') as file:
