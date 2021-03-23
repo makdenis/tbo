@@ -59,7 +59,7 @@ def chunkify(filename, size=1024 * 1024):
 
 if __name__ == '__main__':
     filename = "lab.txt"
-    # gen_file(filename, 50)
+    # gen_file(filename, 1024*3)
     t0 = time.time()
     pool = mp.Pool(4)
     jobs = []
